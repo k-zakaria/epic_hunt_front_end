@@ -1,0 +1,150 @@
+{
+  "articles": [
+    {
+      "title": "Learn angular 19 from scratch",
+      "category": "Home Decoration",
+      "body": "angular 18 is the most framework in the world",
+      "image": "https://images.pexels.com/photos/20418667/pexels-photo-20418667/free-photo-of-pink-rose-in-nature.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 1,
+      "views": 6,
+      "reaction": {
+        "likes": 126,
+        "dislikes": 6
+      }
+    },
+    {
+      "title": "Learn Spring boot 2.0 from scratch",
+      "body": "simply dummy text of the printing and",
+      "image": "https://images.pexels.com/photos/27308719/pexels-photo-27308719/free-photo-of-mares-da-alma-navegando-no-rio-vermelho.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Mens Watches",
+      "id": 2
+    },
+    {
+      "title": "Learn Reactjs",
+      "category": "Motorcycle",
+      "body": "simply dummy text of the printing and",
+      "image": "https://images.pexels.com/photos/12906896/pexels-photo-12906896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "views": 2,
+      "author": 1,
+      "reaction": {
+        "likes": 49,
+        "dislikes": 3
+      },
+      "id": 3
+    },
+    {
+      "title": "Learn Nodejs",
+      "category": "Skin Care",
+      "body": "simply dummy text of the printing and",
+      "image": "https://images.pexels.com/photos/18688173/pexels-photo-18688173/free-photo-of-a-woman-is-making-a-pottery-with-a-brush.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "views": 1,
+      "author": 1,
+      "reaction": {
+        "likes": 73,
+        "dislikes": 2
+      },
+      "id": 4
+    },
+    {
+      "title": "Learn React Native",
+      "category": "Groceries",
+      "body": "learn how to dev a mobile apps ",
+      "image": "https://images.pexels.com/photos/26691734/pexels-photo-26691734/free-photo-of-photo-of-jellyfish-swimming-underwater.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 5,
+      "views": 1,
+      "author": 1,
+      "reaction": {
+        "likes": 1,
+        "dislikes": 0
+      }
+    },
+    {
+      "title": "Learn Php 8",
+      "category": "Furniture",
+      "body": "dfdfdgfgfg",
+      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/z2iWLZqWSEGLzj7tkVx3",
+      "views": 0,
+      "author": 1,
+      "reaction": {
+        "likes": 0,
+        "dislikes": 0
+      },
+      "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "slug": "beauty",
+      "name": "Beauty"
+    },
+    {
+      "slug": "fragrances",
+      "name": "Fragrances"
+    },
+    {
+      "slug": "furniture",
+      "name": "Furniture"
+    },
+    {
+      "slug": "groceries",
+      "name": "Groceries"
+    },
+    {
+      "slug": "home-decoration",
+      "name": "Home Decoration"
+    },
+    {
+      "slug": "kitchen-accessories",
+      "name": "Kitchen Accessories"
+    },
+    {
+      "slug": "laptops",
+      "name": "Laptops"
+    },
+    {
+      "slug": "mens-shirts",
+      "name": "Mens Shirts"
+    },
+    {
+      "slug": "mens-shoes",
+      "name": "Mens Shoes"
+    },
+    {
+      "slug": "mens-watches",
+      "name": "Mens Watches"
+    },
+    {
+      "slug": "mobile-accessories",
+      "name": "Mobile Accessories"
+    },
+    {
+      "slug": "motorcycle",
+      "name": "Motorcycle"
+    },
+    {
+      "slug": "skin-care",
+      "name": "Skin Care"
+    },
+    {
+      "slug": "smartphones",
+      "name": "Smartphones"
+    },
+    {
+      "slug": "sports-accessories",
+      "name": "Sports Accessories"
+    },
+    {
+      "slug": "sunglasses",
+      "name": "Sunglasses"
+    },
+    {
+      "slug": "tablets",
+      "name": "Tablets"
+    },
+    {
+      "slug": "tops",
+      "name": "Tops"
+    }
+  ],
+  "users": []
+}

@@ -1,0 +1,18 @@
+<div class="flex my-10 mx-4 justify-between">
+    <h1 class="font-black text-3xl">List of users</h1>
+  </div>
+  
+  <div *ngIf="loading$ | async; else loaded">
+    <p>Loading...</p>
+  </div>
+  
+  <ng-template #loaded>
+    <app-list-github
+      [users]="(users$ | async) || []"
+      [deleteUser]="onDeleteUser.bind(this)"
+    ></app-list-github>
+  </ng-template>
+  
+  <div *ngIf="error$ | async as error" class="text-red-500">
+    {{ error }}
+  </div>
