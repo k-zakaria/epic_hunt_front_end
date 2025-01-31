@@ -7,14 +7,15 @@ import { provideEffects } from '@ngrx/effects';
 import { userReducer } from './store/user/user.reducer';
 import { UserEffects } from './store/user/user.effects';
 import { authInterceptor } from './interceptors/auth.interceptor';
+import { CompetitionEffects } from './store/competition/competition.effects';
+import { competitionReducer } from './store/competition/competition.reducer';
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
-    provideHttpClient(),
-    provideStore({ users: userReducer }), // Configuration du store
-    provideEffects([UserEffects]), // Fournir `UserEffects` ici
-    provideRouter(routes),
     provideHttpClient(withInterceptors([authInterceptor])),
+    provideHttpClient(),
+    provideStore({ competitions: competitionReducer, users: userReducer }), // Fusion des reducers
+    provideEffects([CompetitionEffects, UserEffects]), // Fusion des effects
   ],
 };

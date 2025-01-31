@@ -1,4 +1,4 @@
-interface Competition {
+export interface Competition {
     id: string;
     code: string;
     location: string;
@@ -7,4 +7,11 @@ interface Competition {
     minParticipants?: number;
     maxParticipants?: number;
     openRegistration: boolean;
-  }
+}
+
+export interface CompetitionState {
+    competitions: Competition[];
+    total: number;
+    loading: boolean;
+    error: string | null;
+}

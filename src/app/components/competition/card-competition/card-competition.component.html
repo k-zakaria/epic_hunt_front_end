@@ -1,1 +1,18 @@
-<p>card-competition works!</p>
+<div class="flex flex-wrap justify-center gap-6">
+@for (competition of competitions; track $index) {
+<div class="card  bg-base-100 w-96 shadow-xl">
+    <figure class="px-10 pt-10">
+        <img src="https://image.isu.pub/110922144725-3408f1f867ec4ba4b1d9f1bf07122ef2/jpg/page_1_thumb_large.jpg" alt="Shoes"
+            class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center">
+        <h2 class="card-title">{{ competition.speciesType }}</h2>
+        <p>{{ competition.location }}</p>
+        <p>{{ competition.date | date:'yyyy-MM-dd' }}</p>
+        <div class="card-actions">
+            <button class="btn btn-primary">Participer</button>
+        </div>
+    </div>
+</div>
+}
+</div>

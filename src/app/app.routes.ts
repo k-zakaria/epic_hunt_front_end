@@ -10,14 +10,14 @@ import { authGuard } from './guards/auth.guard';
 import { CompetitionComponent } from './pages/competition/competition.component';
 
 export const routes: Routes = [
-    {
-      path: '',
-      redirectTo: (infoUrl) => {
-        console.log(infoUrl);
-        return '/home';
-      },
-      pathMatch: 'full',
+  {
+    path: '',
+    redirectTo: (infoUrl) => {
+      console.log(infoUrl);
+      return '/home';
     },
+    pathMatch: 'full',
+  },
   {
     path: 'home',
     component: HomeComponent,
@@ -28,7 +28,7 @@ export const routes: Routes = [
       import('../app/pages/courses/courses.component').then(
         (c) => c.CoursesComponent
       ),
-      canActivate: [authGuard],
+    canActivate: [authGuard],
   },
   {
     path: 'users',

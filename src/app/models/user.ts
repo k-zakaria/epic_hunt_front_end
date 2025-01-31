@@ -15,3 +15,10 @@ export interface PaginatedResponse {
   users: User[];
   total: number;
 }
+
+export interface UserState {
+  users: User[];
+  total: number;
+  loading: boolean;
+  error: string | null;
+}

@@ -13,7 +13,7 @@ import { catchError, map, mergeMap, of } from 'rxjs';
 
 @Injectable()
 export class UserEffects {
-  private actions$ = inject(Actions); // Injection avec `inject`
+  private actions$ = inject(Actions);
   private githubApiService = inject(GithubApiService);
 
   loadUsers$ = createEffect(() =>

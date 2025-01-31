@@ -5,6 +5,7 @@ import { TodosComponent } from './pages/todos/todos.component';
 import { CoursesComponent } from './pages/courses/courses.component';
 import { GithubComponent } from './pages/github/github.component';
 import { CounterPageComponent } from './pages/counter-page/counter-page.component';
+import { CompetitionComponent } from './pages/competition/competition.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { CounterPageComponent } from './pages/counter-page/counter-page.componen
     CoursesComponent,
     GithubComponent,
     CounterPageComponent,
+    CompetitionComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
